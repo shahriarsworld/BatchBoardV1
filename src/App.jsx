@@ -1,10 +1,16 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import React from 'react';
+import NoticeForm from './components/NoticeForm';
+import ReminderBanner from './components/ReminderBanner';
+import './index.css';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-)
+function App() {
+  return (
+    <div className="app-container">
+      <h1>📋 BatchBoardV1</h1>
+      <ReminderBanner />
+      <NoticeForm />
+    </div>
+  );
+}
+
+export default App;
