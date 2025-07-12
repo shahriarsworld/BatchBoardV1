@@ -6,7 +6,7 @@ import './index.css';
 function App() {
   return (
     <div className="app-container">
-      <h1>📋 BatchBoardV1</h1>
+      <h1>BatchBoardV1</h1>
       <ReminderBanner />
       <NoticeForm />
     </div>
